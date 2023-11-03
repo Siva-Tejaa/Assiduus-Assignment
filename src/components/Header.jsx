@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className='header flex items-center justify-between px-5 py-2'>
-        <Link to="/" onClick={() => setActiveSideNav("Dashboard")}><img src={Assiduus_Logo} alt="Assiduus Logo" className='w-52 h-11'/></Link>
+        <Link to="/" onClick={() => setActiveSideNav("Dashboard")}><img src={Assiduus_Logo} alt="Assiduus Logo" className='w-48 h-10'/></Link>
         <div className='flex items-center justify-around gap-5'>
             <div className='flex items-center'>
                 <button className='p-[6px] bg-[#F6F7F9] outline-none border-[#F6F7F9] rounded-l-md'>
