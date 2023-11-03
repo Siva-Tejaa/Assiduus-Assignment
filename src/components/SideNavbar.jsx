@@ -11,7 +11,6 @@ import Context from './utils/Context';
 
 const SideNavbar = () => {
 
-
     const navItems = [
         {
             id:1,
@@ -47,7 +46,6 @@ const SideNavbar = () => {
 
   const{activeSideNav, setActiveSideNav} = useContext(Context);
 
-
     const setNav = (nav) => {
         setActiveSideNav(nav);
     }
@@ -62,7 +60,6 @@ const SideNavbar = () => {
                         <p>{navItem?.name}</p>
                     </div>
                 </Link>
-
             ))
         }        
     </aside>
