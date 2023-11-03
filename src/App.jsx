@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <Context.Provider value={{activeSideNav, setActiveSideNav}}>
-    <div className='main-container h-[100vh]'>
+    <div className='main-container'>
       <Header/>
         <Routes>
           <Route path="/" element={<Body/>}/>
