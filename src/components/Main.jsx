@@ -6,7 +6,7 @@ import Watchlist from './Watchlist'
 
 const Main = () => {
   return (
-    <main className='p-5 flex flex-auto flex-wrap items-center justify-between gap-3'>
+    <main className='p-5 flex flex-auto flex-wrap items-center justify-center gap-3'>
         <Account/>
         <Invoices/>
         <Cashflow/>

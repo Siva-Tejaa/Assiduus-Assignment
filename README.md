@@ -1,6 +1,6 @@
 # Assiduus Assignment Task
 
-Used Softwares & Tools :
+Tech Stack Used :
 
 - Vite
 - React JS
