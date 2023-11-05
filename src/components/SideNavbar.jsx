@@ -51,7 +51,7 @@ const SideNavbar = () => {
     }
 
   return (
-    <aside className='w-[18rem] bg-[#FFFFFF] min-h-[100vh] pt-10'>
+    <aside className='w-[22rem] bg-[#FFFFFF] min-h-[100vh] pt-10'>
         {
             navItems.map((navItem) => (
                 <Link to={`/${navItem?.name.toLowerCase()}`} key={navItem?.id}>
