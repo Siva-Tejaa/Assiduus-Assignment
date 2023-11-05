@@ -105,6 +105,7 @@ const Account = () => {
         const xAxis = d3.axisBottom(xScale)
                         .ticks(data.length)
                         .tickFormat(i => i+1)
+                        .tickSize(0);
         const xAxisGroup =svg.append("g")
            .call(xAxis)
            .attr("transform", `translate(0, ${h})`);
@@ -113,8 +114,7 @@ const Account = () => {
         xAxisGroup.selectAll('text').style('fill', '#C6C8CA');
 
         // Remove the x-axis line
-        // xAxisGroup.select(".domain").remove();
-        xAxisGroup.select(".domain").attr("stroke", "none");
+        xAxisGroup.select(".domain").remove();
 
         //Setting up the data for the SVG
         svg.selectAll(".line")
