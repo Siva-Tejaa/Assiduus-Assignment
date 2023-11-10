@@ -101,7 +101,7 @@ const Invoices = () => {
           <p className='font-bold mb-4'>Upload files to attach</p>
           <form>
             <label htmlFor="popup-image">
-              <div className='border border-dashed border-[grey] flex flex-col items-center bg-[#efefef] py-4' >
+              <div className='border border-dashed border-[grey] flex flex-col items-center bg-[#efefef] py-4 cursor-pointer' >
               <input id="popup-image" type="file" className='hidden'/>
                 <TbCloudUpload fontSize="4em" color= "#6BB985"/>
                 <p>Browse files to upload</p>
